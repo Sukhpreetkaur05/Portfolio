@@ -1,0 +1,203 @@
+body{
+background:black;
+color:white;
+font-family:Arial;
+margin:0;
+}
+
+header{
+background:#111;
+padding:15px 10%;
+position:fixed;
+width:100%;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+}
+
+.logo{
+color:#ff2e88;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+section{
+padding:100px 10%;
+text-align:center;
+}
+
+h2{
+color:#ff2e88;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+
+.profile{
+width:180px;
+border-radius:50%;
+border:4px solid #ff2e88;
+}
+
+.social a{
+margin:10px;
+padding:10px 15px;
+background:#111;
+border-radius:8px;
+color:white;
+text-decoration:none;
+}
+
+/* EDUCATION */
+
+.edu-container{
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+.edu-card{
+background:#111;
+padding:30px;
+border-radius:10px;
+width:250px;
+transition:.3s;
+}
+
+.edu-card:hover{
+transform:scale(1.1);
+box-shadow:0 0 20px #ff2e88;
+}
+
+/* SKILLS */
+
+.skills-container{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.skill{
+background:#111;
+padding:15px 25px;
+border-radius:10px;
+cursor:pointer;
+}
+
+.skill.active{
+background:#ff2e88;
+}
+
+/* PROJECTS */
+
+.projects-container{
+display:flex;
+justify-content:center;
+gap:40px;
+}
+
+.project-card{
+background:#111;
+border-radius:15px;
+overflow:hidden;
+width:350px;
+}
+
+.project-card img{
+width:100%;
+}
+
+/* CERTIFICATES */
+
+.cert-container{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+}
+
+.cert-card{
+background:#111;
+padding:20px;
+border-radius:10px;
+transition:.3s;
+}
+
+.cert-card:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px #ff2e88;
+}
+
+.cert-card a{
+background:#ff2e88;
+color:white;
+padding:8px 12px;
+display:inline-block;
+margin-top:10px;
+border-radius:6px;
+text-decoration:none;
+}
+
+/* RESUME */
+
+.resume-btn{
+background:#ff2e88;
+padding:12px 20px;
+color:white;
+text-decoration:none;
+margin:10px;
+display:inline-block;
+border-radius:8px;
+}
+
+/* CONTACT */
+
+.contact-info{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-bottom:30px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+max-width:600px;
+margin:auto;
+gap:15px;
+}
+
+input,textarea{
+padding:12px;
+background:#111;
+border:none;
+color:white;
+}
+
+button{
+background:#ff2e88;
+padding:12px;
+border:none;
+color:white;
+}
